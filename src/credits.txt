@@ -1,0 +1,6 @@
+player sprite from https://opengameart.org/content/gentleman-spy-animated
+Sprite for random man https://opengameart.org/content/classic-hero
+Explosion sound from https://opengameart.org/content/explosion-0
+Explotion sprite from https://opengameart.org/content/simple-explosion
+Backgound music from Nicole Marie T https://opengameart.org/content/spy-16bit-8bit-chiptune-retro-style-song-for-your-games
+LOGO font https://www.ffonts.net/Spy-Agency.font.download

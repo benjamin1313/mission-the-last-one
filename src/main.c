@@ -245,10 +245,10 @@ void UpdateDrawFrame(void)
                 }
 
                 // Calculating score based on distace between rocket and player
-                float dX = (player.rec.x+(player.rec.width/2))-(enemies[i].rec.x+(enemies[i].rec.width/2));
+                float dX = (enemies[i].rec.x+(enemies[i].rec.width/2))-(player.rec.x+(player.rec.width/2));
                 float dY = (player.rec.y+(player.rec.height/2))-(enemies[i].rec.y+(enemies[i].rec.height/2));
                 float distace = sqrt(pow(dX,2)+pow(dY,2));
-                if(distace < 80){
+                if(distace < 80 && enemies[i].alive){
                     score++;
                 }
             }
